@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+}
+
+/* HEADER */
+.Header {
+background-color: black;
+padding: 0.9em;
+
+
+}
+/* NAVIGATION + LIENS */
+
+.Navigation img {
+width: 3.5em;
+height: 3.5em;
+margin-left: -34.1em;
+margin-top: -13px;
+position: absolute;
+}
+
+.Navigation {
+  display: flex;
+  justify-content: space-around;
+
+
+}
+
+.Navigation ul{
+  display: flex;
+  justify-content: space-around;
+  color: grey;
+  list-style-type: none;
+  margin-left: 100px;
+  margin: 0;
+}
+
+.Navigation li {
+  padding: 2px;
+}
+
+/* TITRE(S) */
+h1 {
+  text-align: center;
+}
+
+/* ELEMENT EN COUVERTURE */
+
+.first-block {
+  display: flex;
+
+}
+
+.breaking-logo {
+  width: 5em;
+  height: 2;
+}
+
+figcaption {
+  position: absolute;
+  top: 450px;
+}
+
+.img-couverture {
+  height: 15em;
+  width: 22em;
+  margin-right: 30px;
+}
+
+
+/* ELEMENT A DROITE DE LA COUVERTURE */
+
+.right-block img {
+display: flex;
+flex-direction: column;
+
+}
+
+h2 {
+  font-size: 15px;
+  margin-right: 30em;
+
+}
+
+h3 {
+  font-size: 15px;
+  margin-right: 30em;
+}
+
+.flying {
+  height: 6em;
+  width: 11em;
+  padding-bottom: 0px;
+}
+
+.second-responsive {
+  height: 6em;
+  width: 11em;
+
+}
+
+/* TOTALITE DU BODY */
+
+
+#Container {
+margin: 0 3.3em;
+
+}
